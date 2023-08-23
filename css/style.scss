@@ -1,0 +1,53 @@
+@import '_custom-variables.scss';
+
+
+@import '../node_modules/bootstrap/scss/bootstrap.scss';
+
+//the commented was before we imported bootstrap
+//$tablet-breakpoint: 768px;
+
+//:root{
+//  --clr-primary:blue;
+//}
+
+//header.container {
+//  border-bottom: 3px solid black;
+//
+//  h1 {
+//    color: blue;
+//    transition: all ease .3s;
+//    &:hover{
+//      color:red;
+//    }
+//  }
+//}
+
+//h1 {
+//  font-size: 20px;
+//  color: blue;
+//
+//  header & {
+//    color: purple;
+//  }
+//}
+
+//h1 {
+//  color: white;
+//
+//  [data-theme= "dark"] & {
+//    color: yellow;
+//  }
+//  @media (max-width: $tablet-breakpoint) {
+//    color: red;
+//  }
+//}
+
+//to change the default
+//$h1color: red ;
+//
+//$h1color:blue !default;
+//
+//h1.dog{
+//  color: $h1color;
+//}
+
